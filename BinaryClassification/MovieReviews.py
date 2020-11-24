@@ -65,6 +65,7 @@ val_loss = history_dict['val_loss']
 accuracy = history_dict['accuracy']
 val_accuracy = history_dict['val_accuracy']
 
+# Plot Validation Scores
 graph_data(train_data=loss, 
            validate_data=val_loss,
            train_label='Training loss',
